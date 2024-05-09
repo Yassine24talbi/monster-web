@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta name="descripion" content="a test wep devloper"/>
+    <title>Monster | store</title>
+    <link rel="stylesheet" href="store.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+
+    <div class="header">
+        <div class="nav-bar" id="nav-bar">
+            <div class="logo"></div>
+            <ul class="nav">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#store">Shop</a></li>
+                <li><a href="#foot">About Us</a></li>
+            </ul>
+            <ul class="social">
+                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                <li><a href="#"><i class='bx bxl-tiktok'></i></a></li>
+            </ul>
+            <div id="main" onclick="menu()">
+                <div id="one"></div>
+                <div id="two"></div>
+                <div id="tree"></div>
+            </div>
+        </div>
+        <div class="introduction" id="Home">
+            <div class="anime"><img src="monster-removebg-preview.png" alt="photo"></div>
+            <div class="background"></div>
+        </div>
+
+        <div class="discription">
+            <i class='bx bx-cloud-lightning'></i>
+            <h3>Unleash unstoppable energy with every sip of Monster Energy, fueling your day with electrifying flavors and unstoppable vitality. Experience the thrill and power packed into every can, igniting your senses and propelling you to conquer any challenge that comes your way.</h3>
+        </div>
+
+
+        <div class="store" id="store">
+            <div id="products1" onmouseenter="view.call(this)" onmouseleave="endview.call(this)" data-name="Defult Monster" data-price=""><img src="monster-removebg-preview.png" alt="photo"></div>
+            <div id="products2" onmouseenter="view.call(this)" onmouseleave="endview.call(this)" data-name="Yellow Monster" data-price=""><img src="yellow.png" alt="photo"></div>
+            <div id="products3" onmouseenter="view.call(this)" onmouseleave="endview.call(this)" data-name="Red Monster" data-price=""><img src="red.png" alt="photo"></div>
+            <div id="products4" onmouseenter="view.call(this)" onmouseleave="endview.call(this)" data-name="Orange Monster" data-price=""><img src="orange-removebg-preview.png" alt="photo"></div>
+            <div id="products5" onmouseenter="view.call(this)" onmouseleave="endview.call(this)" data-name="Blue Monster" data-price=""><img src="blackblue-removebg-preview.png" alt="photo"></div>
+            <div id="products6" onmouseenter="view.call(this)" onmouseleave="endview.call(this)" data-name="White Monster" data-price=""><img src="white-removebg-preview.png" alt="photo"></div>
+        </div>
+        <div class="foot" id="foot">
+            <h2>Devloped By Yassine Talbi</h2>
+            <ul>
+                <li><a data-link="facebook" href="https://www.facebook.com/yassine.talbi.779?mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a></li>
+                <li><a data-link="instagram" href="https://www.instagram.com/yassine_ta20/"><i class='bx bxl-instagram'></i></a></li>
+                <li><a data-link="github" href="https://github.com/Yassine24talbi"><i class='bx bxl-github'></i></a></li>
+            </ul>
+            <div class="img"></div>
+            <span>2024/5/8 to 2024/5/9</span>
+        </div>
+        
+        </div>
+
+
+
+
+
+
+    <div class="menu" id="menu">
+        <ul class="nav-media">
+            <li><a onclick="menu()" href="#Home">Home</a></li>
+            <li><a onclick="menu()" href="#store">Shop</a></li>
+            <li><a onclick="menu()" href="#foot">About Us</a></li>
+        </ul>
+        <ul class="social-media">
+            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="#"><i class='bx bxl-tiktok'></i></a></li>
+        </ul>
+    </div>
+    <script src="store.js"></script>
+</body>
+</html>

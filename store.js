@@ -60,6 +60,7 @@ function menu(){
     tree.style.rotate = '-45deg'
     tree.style.transformOrigin = 'center'
     tree.style.transform = 'translateY(-7px)'
+    navbar.style.background = 'black';
 
   } else {
     Menu.style.right = '-40%';
@@ -71,6 +72,7 @@ function menu(){
     tree.style.rotate = '-0deg'
     tree.style.transformOrigin = 'center'
     tree.style.transform = 'translateY(-0px)'
+    navbar.style.background = 'transparent';
   }
 }
 

@@ -433,7 +433,6 @@ body{
     .store{
         grid-template-columns: auto;
         width: 100%;
-        left: -10%;
 
     }
     .store div{

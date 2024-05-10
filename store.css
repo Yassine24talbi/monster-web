@@ -406,29 +406,48 @@ body{
         transform: translateY(700px);
     }
 }
-@media (max-height:1020px) and (max-width:750px) {
+@media screen and (max-width:600px) {
+    ::-webkit-scrollbar {
+        display: none;
+    
+      }
     .nav-bar ul{
         display: none;
     }
     #main{
         display: grid;
+        transform: translateX(-50px);
     }
     .logo{
         transform: translateX(-30px);
     }
     .anime{
-        scale: 1;
+        scale: .85;
+        transform: translate(-55%,-50%);
     }
     .discription{
-        width: 90%;
-        font-size: 17px;
+        width: 80%;
+        font-size: 15px;
+        transform: translate(-50%,250%);
     }
     .store{
         grid-template-columns: auto;
         width: 100%;
+        left: -10%;
 
     }
     .store div{
         scale: .6;
+    }
+    .foot h2{
+        left: 50%;
+        transform: translateX(-50%);
+        top: 30px;
+    }
+    .foot .img{
+        scale: .7;
+    }
+    .background{
+        width: 100%;
     }
 }
